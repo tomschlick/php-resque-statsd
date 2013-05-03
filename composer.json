@@ -1,0 +1,14 @@
+{
+    "name": "tomschlick/php-resque-statsd",
+    "type": "library",
+    "description": "Submit metrics for your php-resque jobs into StatsD/Graphite",
+    "keywords": ["php-resque", "statsd", "udp", "graphite", "resque", "job"],
+    "homepage": "https://github.com/tomschlick/php-resque-statsd",
+    "require": {
+        "php": ">=5.3.0",
+        "chrisboulton/php-resque": "*"
+    },
+    "autoload": {
+        "psr-0": { "ResqueStatsd": "lib/" }
+    }
+}
